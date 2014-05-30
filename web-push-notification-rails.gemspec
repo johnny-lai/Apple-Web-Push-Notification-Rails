@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/ankurp/apple-web-push-notification-rails'
   s.licenses = 'MIT'
   s.has_rdoc = false
-  s.required_ruby_version = '>=2.0.0'
+  s.required_ruby_version = '>=1.9.7'
   s.rubyforge_project = 'web-push-notification-rails'
-  s.add_dependency "rails", ">= 3.1.0"
+  s.add_dependency "rails", ">= 3.0.0"
   s.add_dependency "json"
   s.add_dependency 'rubyzip', '< 1.0.0'
   s.add_runtime_dependency "activesupport", ">= 3.0"
